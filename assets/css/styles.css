@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans");
+body{
+    background-color: black;
+    color: white;
+    font-family: "Muli", sans-serif;
+    font-size: 18px;
+}
+
+h1{
+    font-family: "Space Mono", monospace;
+    font-size: 46px;
+}
