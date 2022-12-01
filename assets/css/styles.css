@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans");
-html{
-    background-color: black;
-}
 body{
-    
+    background-color: black;
     color: white;
     font-family: "Muli", sans-serif;
     font-size: 18px;
