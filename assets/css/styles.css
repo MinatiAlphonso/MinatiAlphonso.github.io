@@ -8,6 +8,7 @@
     --heading-font-size: 46px;
     --background-color: black;
     --font-color: white;
+    --highlight-color: #9817f8;
 }
 
 body{
@@ -20,4 +21,8 @@ body{
 h1{
     font-family: var(--heading-font-family);
     font-size: var(--heading-font-size);
+}
+
+.highlight{
+    color:var(--highlight-color);
 }
