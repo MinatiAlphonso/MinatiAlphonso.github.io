@@ -1,12 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans");
+
+/*Variables*/
+:root{
+    --regular-font-family: "Muli", sans-serif;
+    --regular-font-size: 18px;
+    --heading-font-family: "Space Mono", monospace;
+    --heading-font-size: 46px;
+    --background-color: black;
+    --font-color: white;
+}
+
 body{
-    background-color: black;
-    color: white;
-    font-family: "Muli", sans-serif;
-    font-size: 18px;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: var(--regular-font-family);
+    font-size: var(--regular-font-size);
 }
 
 h1{
-    font-family: "Space Mono", monospace;
-    font-size: 46px;
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-font-size);
 }
