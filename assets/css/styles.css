@@ -9,6 +9,8 @@
     --background-color: black;
     --font-color: white;
     --highlight-color: #9817f8;
+    --hover-color: #f817e8;
+    --extra-color: #2717F8;
 }
 
 body{
@@ -21,6 +23,16 @@ body{
 h1{
     font-family: var(--heading-font-family);
     font-size: var(--heading-font-size);
+}
+
+a {
+    text-decoration: none;
+    color: var(--highlight-color);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--hover-color);
 }
 
 .highlight{
