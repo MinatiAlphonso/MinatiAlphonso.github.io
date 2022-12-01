@@ -35,6 +35,10 @@ a:hover {
     color: var(--hover-color);
 }
 
+i {
+    color: var(--extra-color);
+}
+
 .highlight{
     color:var(--highlight-color);
 }
