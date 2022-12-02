@@ -6,16 +6,17 @@
     --regular-font-size: 18px;
     --heading-font-family: "Space Mono", monospace;
     --heading-font-size: 46px;
-    --background-color: black;
-    --font-color: white;
-    --highlight-color: #9817f8;
-    --hover-color: #f817e8;
-    --extra-color: #2717F8;
+    /* --primary-color:#2D1674; */
+    --primary-color: #050A30;
+    --secondary-color:#FFF2FF;
+    /* --accent-color: #703ACF; */
+    --accent-color:#9817f8;
+    --hover-color: #9271C2;
 }
 
 body{
-    background-color: var(--background-color);
-    color: var(--font-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     font-family: var(--regular-font-family);
     font-size: var(--regular-font-size);
 }
@@ -27,7 +28,7 @@ h1{
 
 a {
     text-decoration: none;
-    color: var(--highlight-color);
+    color: var(--accent-color);
 }
 
 a:hover {
@@ -36,9 +37,9 @@ a:hover {
 }
 
 i {
-    color: var(--extra-color);
+    color: var(--hover-color);
 }
 
 .highlight{
-    color:var(--highlight-color);
+    color:var(--accent-color);
 }
