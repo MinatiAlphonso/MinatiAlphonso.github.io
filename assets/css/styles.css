@@ -1,17 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
 
 /*Variables*/
-:root{
-    --regular-font-family: "Muli", sans-serif;
-    --regular-font-size: 18px;
-    --heading-font-family: "Space Mono", monospace;
-    --heading-font-size: 46px;
-    /* --primary-color:#2D1674; */
-    --primary-color: #050A30;
-    --secondary-color:#FFF2FF;
-    /* --accent-color: #703ACF; */
-    --accent-color:#9817f8;
-    --hover-color: #9271C2;
+:root {
+	--regular-font-family: "Open Sans", sans-serif;
+    --regular-font-size: 1vw;
+    --heading-font-family: "Times New Roman", serif;
+    --heading-font-size: 5vw;
+    --primary-color: #000000;
+    --secondary-color: #FFFFFF;
+	--accent-color: #E5CEF6;
+    --hover-color: #CEA3EE;
 }
 
 body{
@@ -26,6 +24,10 @@ h1{
     font-size: var(--heading-font-size);
 }
 
+p {
+	font-size: var(--regular-font-size);
+}
+
 a {
     text-decoration: none;
     color: var(--accent-color);
@@ -36,10 +38,21 @@ a:hover {
     color: var(--hover-color);
 }
 
-i {
-    color: var(--hover-color);
+img {
+	border-radius: 50%;
+	width: 25%;
+	float: right;
 }
 
-.highlight{
-    color:var(--accent-color);
+.btn_pill {
+	background-color: var(--primary-color);
+	border-color: var(--secondary-color);
+	color: var(--accent-color);
+	border-radius: 1.5vw;
+	font-size: var(--regular-font-size);
+	padding: 0.5vw;
+}
+
+.btn_pill:hover {
+	color: var(--hover-color);
 }
