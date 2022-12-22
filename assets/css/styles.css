@@ -41,7 +41,13 @@ a:hover {
 img {
 	border-radius: 50%;
 	width: 25%;
-	float: right;
+	/* float: right; */
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .btn_pill {
