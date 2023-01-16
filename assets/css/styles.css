@@ -3,44 +3,103 @@
 /*Variables*/
 :root {
 	--regular-font-family: "Open Sans", sans-serif;
-    --regular-font-size: 1vw;
     --heading-font-family: "Times New Roman", serif;
-    --heading-font-size: 5vw;
     --primary-color: #000000;
     --secondary-color: #FFFFFF;
 	--accent-color: #E5CEF6;
     --hover-color: #CEA3EE;
+	--phone-font-size-headings: 30px;
+	--phone-font-size: 14px;
+	--laptop-font-size-headings: 80px;
+	--laptop-font-size: 18px;
 }
 
-body{
+a, p, body{
     background-color: var(--primary-color);
     color: var(--secondary-color);
     font-family: var(--regular-font-family);
-    font-size: var(--regular-font-size);
+    font-size: var(--phone-font-size);
 }
 
 h1{
     font-family: var(--heading-font-family);
-    font-size: var(--heading-font-size);
+	font-size: var(--phone-font-size-headings);
 }
 
-p {
-	font-size: var(--regular-font-size);
-}
-
-a {
-    text-decoration: none;
-    color: var(--accent-color);
-}
-
-a:hover {
-    text-decoration: none;
-    color: var(--hover-color);
-}
 
 img {
+	
+}
+
+
+
+.profile_pic {
 	border-radius: 50%;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.greeting, .short_desc {
+	text-align: center;
+}
+
+.clearfix {
+    
+}
+
+.btn_pill {
+	background-color: var(--primary-color);
+	border-color: var(--secondary-color);
+	color: var(--accent-color);
+	font-size: var(--phone-font-size);
+	border-radius: 4vw;
+	padding: 1.5vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.btn_pill:hover {
+	color: var(--hover-color);
+}
+
+@media only screen and (min-width: 992px) {
+a, p, body{
+    font-size: var(--laptop-font-size);
+}
+
+h1{
+    font-size: var(--laptop-font-size-headings);
+}
+
+
+img {
+	
+}
+.intro_text{
+	float: left; 
+	margin: 2%; 
+	width: 50%; 
+	overflow-wrap: break-word;
+}
+.btn_flex_container {
+	display: flex;
+	justify-content: center;
+}
+	
+.profile_pic{
+	margin: 2%; 
+	float: right;
 	width: 30%;
+}
+
+.greeting, .short_desc{
+	text-align: left;
+	
 }
 
 .clearfix {
@@ -48,16 +107,26 @@ img {
     clear: both;
     display: table;
 }
+	
+.btn_group{
+	margin: 2%;
+	/*position: absolute;
+	bottom: 0px;*/
+}
+
+.btn_single{
+	float: left; 
+	margin-right: 20px;
+}
 
 .btn_pill {
-	background-color: var(--primary-color);
-	border-color: var(--secondary-color);
-	color: var(--accent-color);
+	font-size: var(--laptop-font-size);
 	border-radius: 1.5vw;
-	font-size: var(--regular-font-size);
 	padding: 0.5vw;
 }
 
 .btn_pill:hover {
 	color: var(--hover-color);
+}
+
 }
