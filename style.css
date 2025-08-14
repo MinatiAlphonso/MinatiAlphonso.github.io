@@ -316,7 +316,7 @@ section {
 
 /* EXPERIENCE SECTION */
 
-#experience {
+#skills, #experience {
     position: relative;
 }
 
@@ -352,6 +352,61 @@ article {
 article .icon {
     cursor: default;
 }
+
+#experience .about-containers {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#experience .details-container {
+  text-align: left;
+}
+
+#experience .details-container .inline-info {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+#experience .details-container .inline-info article {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: auto;          
+  max-width: 100%;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+#experience .details-container .inline-info article .icon {
+  flex-shrink: 0;      
+}
+
+#experience .details-container .inline-info h3 {
+  margin: 0;                  
+  white-space: normal;        
+  overflow-wrap: anywhere;   
+  word-break: break-word;      
+}
+
+#experience article {
+  width: auto;
+}
+
+#experience .job-date {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: rgb(85,85,85);
+}
+
+#experience .details-container p {
+  margin: 0.25rem 0;
+  color: rgb(85,85,85);
+}
+
 
 /* PROJECTS SECTION */
 
